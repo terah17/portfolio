@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Terah Gatari</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1>Contact</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Get in Touch</h2>
+
+        <form action="#" method="post">
+            
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required minlength="3"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" 
+                   placeholder="0712345678" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required minlength="10"></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Terah Gatari</p>
+</footer>
+
+</body>
+</html>
